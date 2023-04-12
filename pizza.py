@@ -135,7 +135,7 @@ class Terminal:
     def complete_order(self):
         print("Ваш заказ готовится...")
         for pizza in self.order.pizzas:
-            pizza.prepare()
+            pizza.coocking()
         print("Ваш заказ готов")
 
     def run(self):
